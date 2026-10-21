@@ -50,3 +50,12 @@
 /* Small personal photo in About Me; preserve the full photograph. */
 .about-profile{width:200px;max-width:100%;height:auto;margin-top:28px;border:1px solid var(--line);border-radius:8px}
 @media(max-width:700px){.about-profile{width:160px;margin-top:22px}}
+
+/* Maya Scene Checkup and explicit AI development status. */
+.tool-development-badge{display:table;margin-top:12px;border:1px solid #625274;border-radius:4px;padding:5px 9px;font-size:11px;line-height:1.5;color:var(--accent)}
+.scene-checkup-preview{display:block;position:relative;margin-top:20px;background:var(--panel);aspect-ratio:16/9;overflow:hidden}
+.scene-checkup-preview img{width:100%;height:100%;object-fit:contain}
+.scene-checkup-preview .play{width:42px;height:42px;font-size:12px}
+.project-development{margin:0 0 26px;padding:18px 20px;border:1px solid #625274;border-left:3px solid var(--accent);background:var(--panel)}
+.project-development h3{font-size:16px;line-height:1.4;color:var(--accent)}
+.project-development p{font-size:13px;line-height:1.75;color:var(--muted);margin-top:8px}
