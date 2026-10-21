@@ -1,2 +1,1 @@
-# Sirikorn Sangwilai — Portfolio (compact download)
-
+# Sirikorn Sangwilai — Portfolio
