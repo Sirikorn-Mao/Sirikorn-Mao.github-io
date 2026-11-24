@@ -59,3 +59,36 @@
 .project-development{margin:0 0 26px;padding:18px 20px;border:1px solid #625274;border-left:3px solid var(--accent);background:var(--panel)}
 .project-development h3{font-size:16px;line-height:1.4;color:var(--accent)}
 .project-development p{font-size:13px;line-height:1.75;color:var(--muted);margin-top:8px}
+
+/* 3D-first featured work: modeling, production and look development. */
+.work-intro{font-size:14px;color:var(--accent);margin:4px 0 22px;letter-spacing:.03em}
+.work-intro span{color:var(--muted)}
+.featured-projects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.featured-projects .collection-cover{display:block;aspect-ratio:4/3}
+.featured-projects .collection-cover>img{display:block;width:100%;height:100%;object-fit:cover}
+.featured-projects .collection-title{font-size:clamp(20px,2vw,27px)}
+.featured-projects .collection-info{padding-top:16px}
+.work-group-title{font-size:18px;font-weight:400;letter-spacing:.01em;margin:50px 0 22px}
+.work-collections{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.work-collections .collection-title{font-size:clamp(20px,2vw,27px)}
+.process-breakdown{margin:35px 0 22px;padding:24px 0;border-top:1px solid var(--line)}
+.process-breakdown h3{font-size:24px;margin:12px 0 20px}
+.process-breakdown ol{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin:0}
+.process-breakdown li{border:1px solid var(--line);background:var(--panel);padding:20px}
+.process-breakdown h4{font-size:14px;color:var(--accent);margin:0 0 10px}
+.process-breakdown li p{font-size:16px;line-height:1.65;color:var(--muted);margin:0}
+.project-actions{margin:-8px 0 22px}
+.project-actions .share-project{font-size:14px;padding:10px 14px;border:1px solid var(--line);background:var(--panel);color:var(--accent);cursor:pointer}
+.project-actions .share-project:hover,.project-actions .share-project:focus-visible{border-color:var(--accent);color:var(--text)}
+@media(max-width:900px){.featured-projects{grid-template-columns:repeat(2,minmax(0,1fr))}.work-collections{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.featured-projects,.work-collections{grid-template-columns:1fr;gap:27px}.work-intro span{display:block;margin-top:6px}.work-group-title{margin-top:36px}.process-breakdown ol{grid-template-columns:1fr}}
+
+.featured-projects .collection-info .eyebrow{font-size:12px;letter-spacing:.06em}
+.featured-projects .collection-description{font-size:14px}
+
+.featured-projects .featured-card{display:flex;flex-direction:column;justify-content:flex-start;min-width:0}
+.featured-projects .collection-cover,.featured-projects .collection-info{width:100%}
+.featured-projects .collection-arrow{display:none}
+
+/* Full-resolution character presentation sheets. */
+.full-artwork{display:block;cursor:zoom-in}.full-artwork-link{font-size:14px;margin-bottom:20px}.about-copy>p:not(.large-copy):not(.education){font-size:16px;line-height:1.75}
